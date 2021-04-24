@@ -510,8 +510,8 @@ def axiom_generator_breeze_percept_and_location_property(x, y, t):
     axiom_str = ''
     "*** YOUR CODE HERE ***"
     # axiom_str = '{0} >> ({1} % {2})'.format(state_loc_str(x,y,t),percept_breeze_str(t),breeze_str(x,y))
-    axiom_str = '{0} >> {1}'.format(percept_breeze_str(t), breeze_str(x, y))
-    # axiom_str = state_loc_str(x,y,t) + " >> (" + percept_breeze_str(t) + " <=> " + breeze_str(x,y) + ")"
+    #axiom_str = '{0} >> {1}'.format(percept_breeze_str(t), breeze_str(x, y))
+    axiom_str = state_loc_str(x,y,t) + " >> (" + percept_breeze_str(t) + " <=> " + breeze_str(x,y) + ")"
     return axiom_str
 
 def generate_breeze_percept_and_location_axioms(t, xmin, xmax, ymin, ymax):
