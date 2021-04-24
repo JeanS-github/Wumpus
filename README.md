@@ -1,3 +1,1 @@
-```py
-./wumpus.py [-y;-k]
-```
+`./wumpus.py [-y;-k]`
