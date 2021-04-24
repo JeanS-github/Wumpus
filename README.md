@@ -1,1 +1,3 @@
-# logic-project-w-u-m-p-u-s
+```py
+./wumpus.py [-y;-k]
+```
